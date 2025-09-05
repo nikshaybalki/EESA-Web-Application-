@@ -45,9 +45,13 @@ export default function Home() {
       </section>
 
       {/* SECTION 2 */}
-      <section
+      <motion.section
         id="section2"
         className="min-h-screen flex items-center border-t border-white/10 scroll-mt-20"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 text-center md:text-left">
           <h2 className="text-3xl font-bold">Gallery Preview</h2>
@@ -55,36 +59,82 @@ export default function Home() {
             Sample formatting: grid of collages, hover anims, filters.
           </p>
 
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="h-48 bg-white/5 rounded-lg" />
-            <div className="h-48 bg-white/5 rounded-lg" />
-            <div className="h-48 bg-white/5 rounded-lg" />
-          </div>
+          <motion.div
+            className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={{
+              hidden: {},
+              visible: {
+                transition: { staggerChildren: 0.2 }
+              }
+            }}
+          >
+            {[1, 2, 3].map((i) => (
+              <motion.div
+                key={i}
+                className="h-48 bg-white/5 rounded-lg"
+                variants={{
+                  hidden: { opacity: 0, y: 30 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+              />
+            ))}
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* SECTION 3 */}
-      <section
+      <motion.section
         id="section3"
         className="min-h-screen flex items-center border-t border-white/10 scroll-mt-20"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 text-center md:text-left">
           <h2 className="text-3xl font-bold">How it works</h2>
           <p className="mt-4 text-white/70 max-w-2xl">
             Steps to create a collage, share, and join challenges.
           </p>
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 bg-white/5 rounded-lg">1. Upload</div>
-            <div className="p-6 bg-white/5 rounded-lg">2. Arrange</div>
-            <div className="p-6 bg-white/5 rounded-lg">3. Share</div>
-          </div>
+          <motion.div
+            className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={{
+              hidden: {},
+              visible: {
+                transition: { staggerChildren: 0.2 }
+              }
+            }}
+          >
+            {['Upload', 'Arrange', 'Share'].map((step, i) => (
+              <motion.div
+                key={i}
+                className="p-6 bg-white/5 rounded-lg"
+                variants={{
+                  hidden: { opacity: 0, y: 30 },
+                  visible: { opacity: 1, y: 0 }
+                }}
+              >
+                {i + 1}. {step}
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* SECTION 4 */}
-      <section
+      <motion.section
         id="section4"
         className="min-h-screen flex items-center border-t border-white/10 scroll-mt-20"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 text-center md:text-left">
           <h2 className="text-3xl font-bold">Community</h2>
@@ -92,7 +142,7 @@ export default function Home() {
             Follow creators, like collages, join weekly prompts.
           </p>
         </div>
-      </section>
+      </motion.section>
     </div>
   )
 }

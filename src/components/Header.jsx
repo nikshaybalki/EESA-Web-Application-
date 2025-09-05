@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const NavItem = ({ to, children }) => (
+const NavItem = ({ to, children, onClick }) => (
   <NavLink
     to={to}
     className={({ isActive }) =>
@@ -10,22 +10,24 @@ const NavItem = ({ to, children }) => (
         isActive ? 'text-accent' : 'text-white/80 hover:text-white'
       }`
     }
+    onClick={onClick}
   >
-    <motion.span whileHover={{ y: -2 }} whileTap={{ scale: 0.95 }}>
-      {children}
-    </motion.span>
+    {children}
   </NavLink>
 )
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const toggleMenu = () => setMenuOpen(!menuOpen)
+  const closeMenu = () => setMenuOpen(false)
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-sm border-b border-white/5">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
         
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
           <svg width="34" height="34" viewBox="0 0 24 24" fill="none">
             <rect width="24" height="24" rx="6" fill="#1E90FF" />
             <path d="M6 8h12v1H6zM6 11h12v1H6zM6 14h8v1H6z" fill="#000" />
@@ -43,27 +45,50 @@ export default function Header() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-white/80 hover:text-white"
-          onClick={() => setMenuOpen(!menuOpen)}
+          className="md:hidden text-white/80 hover:text-white focus:outline-none"
+          onClick={toggleMenu}
         >
-          ☰
+          <motion.div
+            animate={menuOpen ? { rotate: 45 } : { rotate: 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            {menuOpen ? (
+              <span className="text-2xl">✕</span>
+            ) : (
+              <span className="text-2xl">☰</span>
+            )}
+          </motion.div>
         </button>
       </div>
+
+      {/* Overlay */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.6 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 bg-black md:hidden"
+            onClick={closeMenu}
+          />
+        )}
+      </AnimatePresence>
 
       {/* Mobile Menu */}
       <AnimatePresence>
         {menuOpen && (
           <motion.nav
-            initial={{ y: -50, opacity: 0 }}
+            initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -50, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden bg-black/95 border-t border-white/10 px-6 py-4 space-y-2"
+            exit={{ y: -100, opacity: 0 }}
+            transition={{ duration: 0.35, ease: 'easeOut' }}
+            className="md:hidden absolute top-16 left-0 right-0 bg-black/95 border-t border-white/10 px-6 py-6 space-y-4"
           >
-            <NavItem to="/page1">&lt;page1&gt;</NavItem>
-            <NavItem to="/page2">&lt;page2&gt;</NavItem>
-            <NavItem to="/page3">&lt;page3&gt;</NavItem>
-            <NavItem to="/page4">&lt;page4&gt;</NavItem>
+            <NavItem to="/page1" onClick={closeMenu}>&lt;page1&gt;</NavItem>
+            <NavItem to="/page2" onClick={closeMenu}>&lt;page2&gt;</NavItem>
+            <NavItem to="/page3" onClick={closeMenu}>&lt;page3&gt;</NavItem>
+            <NavItem to="/page4" onClick={closeMenu}>&lt;page4&gt;</NavItem>
           </motion.nav>
         )}
       </AnimatePresence>

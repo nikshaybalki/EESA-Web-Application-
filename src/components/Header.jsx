@@ -1,3 +1,5 @@
+
+
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -28,11 +30,17 @@ export default function Header() {
         
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
+
+
           <svg width="34" height="34" viewBox="0 0 24 24" fill="none">
             <rect width="24" height="24" rx="6" fill="#1E90FF" />
             <path d="M6 8h12v1H6zM6 11h12v1H6zM6 14h8v1H6z" fill="#000" />
           </svg>
-          <span className="font-semibold tracking-wider">Collage Club</span>
+
+
+
+
+          <span className="font-semibold tracking-wider">EESA Club</span>
         </Link>
 
         {/* Desktop Nav */}

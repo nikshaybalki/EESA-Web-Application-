@@ -131,7 +131,7 @@ export default function Home() {
 
 
       {/* SECTION-3 */}
-      <motion.section
+      {/* <motion.section
         id="section-3"
         className="min-h-screen flex items-center border-t border-white/10 scroll-mt-20"
         initial={{ opacity: 0, y: 40 }}
@@ -145,7 +145,48 @@ export default function Home() {
             Follow creators, like collages, join weekly prompts.
           </p>
         </div>
-      </motion.section>
+      </motion.section> */}
+
+      {/* ===== SECTION 3: ABOUT EESA ===== */}
+<section
+  id="section-3"
+  className="min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center"
+>
+  {/* Heading */}
+  <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 drop-shadow-[0_0_20px_rgba(30,144,255,0.6)]">
+    ABOUT EESA
+  </h2>
+
+  {/* Content Box */}
+  <div className="max-w-4xl bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 backdrop-blur-md shadow-lg hover:shadow-[0_0_40px_#1E90FF] transition-all duration-500">
+    <p className="text-lg leading-relaxed text-white/80 text-justify">
+      <span className="block mb-4">
+        Electrical Engineering Students‟ Association (EESA) is a student
+        organization pioneered in technical activities, founded by U. Gudaru. It
+        is the first and foremost established club at WCE, Sangli. It is active
+        since 1976, with the concept of the founder, guidance of staff advisor,
+        an executive row of third year students with the guidance of final year
+        students and full-fledged support of first year and second year students
+        together enhances the power of EESA.
+      </span>
+
+      <span className="block">
+        EESA conducts various activities throughout the year to help students in
+        increasing their technical knowledge and soft skills. EESA helps students
+        pursue their technical interests thereby increasing their engineering
+        expertise along with imparting skills. Since its inception, EESA is
+        striving hard to meet its motto{" "}
+        <span className="text-accent font-semibold">
+          “To enhance technical comprehension, soft skills and managerial
+          dexterity”
+        </span>{" "}
+        of students pursuing electrical engineering in Walchand College of
+        Engineering, Sangli.
+      </span>
+    </p>
+  </div>
+</section>
+
     </div>
   )
 }

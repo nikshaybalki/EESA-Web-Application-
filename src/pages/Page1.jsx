@@ -68,6 +68,7 @@ export default function Page1() {
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 drop-shadow-[0_0_20px_rgba(30,144,255,0.7)]">
           EVENTS
         </span>
+        
       </motion.h1>
 
       {/* ===== Event Cards ===== */}

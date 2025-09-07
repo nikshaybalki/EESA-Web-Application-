@@ -45,10 +45,10 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-4">
-          <NavItem to="/page1">&lt;page1&gt;</NavItem>
-          <NavItem to="/page2">&lt;page2&gt;</NavItem>
-          <NavItem to="/page3">&lt;page3&gt;</NavItem>
-          <NavItem to="/page4">&lt;page4&gt;</NavItem>
+          <NavItem to="/page1">Our Events</NavItem>
+          <NavItem to="/page2">Upcoming Events</NavItem>
+          <NavItem to="/page3">About EESA</NavItem>
+          <NavItem to="/page4">Chief Board</NavItem>
         </nav>
 
         {/* Mobile Hamburger */}

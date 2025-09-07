@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import ChiefBoard from "../components/ChiefBoard"
+import { assets } from "../assets/assets"
+
 
 export default function Home() {
   return (
@@ -35,8 +37,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <Link to="/page1" className="px-6 py-3 rounded-md bg-accent text-black font-semibold">
-              Join the Club
+            <Link to="/page2" className="px-6 py-3 rounded-md bg-accent text-black font-semibold">
+              Explore Event 
             </Link>
             <a href="#section-1" className="px-6 py-3 rounded-md border border-white/10 text-white/80">
               Explore ↓
@@ -64,19 +66,19 @@ export default function Home() {
 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
   {[
     {
-      name: "PRUDENCE",
-      description: "National level fest fostering managerial intellect since 2001.",
-      img: "https://picsum.photos/id/1011/800/600"
+      name: "🔧 Technocrat",
+      description: "Technocrat is a showcase of innovation where participants present their cutting-edge tech solutions and prototypes. It’s the ultimate platform for budding engineers to exhibit creativity, problem-solving, and engineering skills.",
+      img: assets.homeEvent1
     },
     {
-      name: "ElectroSpark",
-      description: "Flagship event showcasing innovation in electronics and robotics.",
-      img: "https://picsum.photos/id/1015/800/600"
+      name: "🤖 Robowar",
+      description: "Gear up for high-voltage robotic battles in the arena! Robowar pits custom-built robots against each other in a test of power, durability, and strategy.",
+      img: assets.homeEvent2
     },
     {
-      name: "TechVision",
-      description: "Annual tech conference featuring guest lectures & project expo.",
-      img: "https://picsum.photos/id/1016/800/600"
+      name: "🏁 Roborace",
+      description: "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      img: assets.homeEvent3
     }
   ].map((event, i) => (
     <div key={i} className="group card w-full h-96">

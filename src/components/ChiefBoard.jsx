@@ -11,11 +11,11 @@ import { Link } from "react-router-dom";
  */
 
 const PEOPLE = [
-  { name: "Haripriya Yele", role: "PDE & Chief Web Developer", img: "https://picsum.photos/320/320?1" },
-  { name: "Samruddhi Shinde", role: "Chief PDE & Chief SKID-W", img: "https://picsum.photos/320/320?2" },
-  { name: "Gayatri Patil", role: "Chief PDE", img: "https://picsum.photos/320/320?3" },
-  { name: "Samarth Gaikwad", role: "Chief PDE", img: "https://picsum.photos/320/320?4" },
-  { name: "Chinmayi Bargal", role: "Chief PDF", img: "https://picsum.photos/320/320?5" },
+  { name: "Vishwadeep Telgote", role: "President", img: "https://picsum.photos/320/320?1" },
+  { name: "Darshan Nandurge", role: "Vice President", img: "https://picsum.photos/320/320?2" },
+  { name: "Shruti Hore", role: "Secretary", img: "https://picsum.photos/320/320?3" },
+  { name: "Vishwajeet pawar", role: "Program Director in Finance", img: "https://picsum.photos/320/320?4" },
+  { name: "Aditya Wadkar", role: "Aptitude Developer", img: "https://picsum.photos/320/320?5" },
 ];
 
 export default function ChiefBoard() {

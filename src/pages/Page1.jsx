@@ -23,33 +23,33 @@ import { motion } from "framer-motion";
 // Event data (replace img paths later with actual images)
 const events = [
   {
-    title: "PRUDENCE 2K24",
+    title: "🔧 Technocrat",
     description:
-      "PRUDENCE includes sectors of professional life, right from economics, entrepreneurship, marketing, debate, politics, governance, social responsibilities, journalism, environment, etc.",
+      "Technocrat is a showcase of innovation where participants present their cutting-edge tech solutions and prototypes. It’s the ultimate platform for budding engineers to exhibit creativity, problem-solving, and engineering skills.",
     img: "https://picsum.photos/800/500?random=1",
   },
   {
-    title: "CSR 2K24",
+    title: "🤖 Robowar",
     description:
-      "Every year PACE conducts CSR which is an event exclusively aiming to conduct social activities to benefit the less privileged people around Sangli.",
+      "Gear up for high-voltage robotic battles in the arena! Robowar pits custom-built robots against each other in a test of power, durability, and strategy.",
     img: "https://picsum.photos/800/500?random=2",
   },
   {
-    title: "TECH FEST 2K24",
+    title: "🏁 Roborace",
     description:
-      "A fusion of innovation and creativity. Students showcase projects, hackathons, robotics and more with futuristic ideas.",
-    img: "https://picsum.photos/800/500?random=3",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+    img: "https://picsum.photos/800/50An evening celebrating art, dance, and music — where creativity and performa0?random=3",
   },
   {
-    title: "CULTURAL NIGHT",
+    title: "GIM",
     description:
-      "An evening celebrating art, dance, and music — where creativity and performance meet under one roof.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     img: "https://picsum.photos/800/500?random=4",
   },
   {
-    title: "SPORTS WEEK",
+    title: "Alumani Meet",
     description:
-      "Bringing together energy, passion, and team spirit across multiple sports tournaments.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     img: "https://picsum.photos/800/500?random=5",
   },
 ];

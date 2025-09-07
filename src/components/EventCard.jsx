@@ -302,7 +302,7 @@ export default function EventCard({
                     className="w-full h-36 object-cover"
                   />
                   <div className="p-4">
-                    <h4 className="text-lg font-semibold text-blue-300">Aspire</h4>
+                    <h4 className="text-lg font-semibold text-blue-300">Technocrat</h4>
                     <p className="text-white/70 text-sm mt-1">
                       Mock placement drive simulating real campus interviews with expert panels.
                     </p>
@@ -320,7 +320,7 @@ export default function EventCard({
                     className="w-full h-36 object-cover"
                   />
                   <div className="p-4">
-                    <h4 className="text-lg font-semibold text-purple-300">Nitigya</h4>
+                    <h4 className="text-lg font-semibold text-purple-300">Vision</h4>
                     <p className="text-white/70 text-sm mt-1">
                       High-stakes geopolitical & strategy challenge with debate-style rounds.
                     </p>

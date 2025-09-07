@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const sampleEvents = [
   {
-    title: "TECHNOCRAT 2K24",
+    title: "MatSpark",
     shortDesc:
-      "Covers all aspects of professional life — economics, entrepreneurship, governance, environment, and more.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "A multidisciplinary event that brings together leaders and students for impactful discussions.",
     img: "https://picsum.photos/500/300?random=11",
@@ -15,9 +15,9 @@ const sampleEvents = [
     registerLink: "https://example.com/prudence",
   },
   {
-    title: "CSR 2K24",
+    title: "ElectroQuest",
     shortDesc:
-      "A flagship initiative focused on social responsibility and uplifting underprivileged communities.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "Dedicated to giving back to society through volunteering, awareness campaigns, and meaningful actions.",
     img: "https://picsum.photos/500/300?random=13",
@@ -25,9 +25,9 @@ const sampleEvents = [
     registerLink: "https://example.com/csr",
   },
   {
-    title: "TECH FEST 2K24",
+    title: "Circuitxcape",
     shortDesc:
-      "A fusion of innovation and creativity — hackathons, robotics, and futuristic tech challenges.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "A platform for students to showcase their technical brilliance and compete at the highest level.",
     img: "https://picsum.photos/500/300?random=15",
@@ -35,9 +35,9 @@ const sampleEvents = [
     registerLink: "https://example.com/techfest",
   },
   {
-    title: "CULTURAL NIGHT",
+    title: "SimXplore",
     shortDesc:
-      "A vibrant evening of art, music, and dance where talent meets passion under one roof.",
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "The stage comes alive with mesmerizing performances, creativity, and celebration.",
     img: "https://picsum.photos/500/300?random=17",

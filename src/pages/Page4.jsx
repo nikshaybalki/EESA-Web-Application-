@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 
 export default function Page4() {
   const boardMembers = [
-    { post: "President", name: "Rahul Patil", img: "/member1.jpg" },
-    { post: "Vice President", name: "Sneha Kulkarni", img: "/member2.jpg" },
-    { post: "Secretary", name: "Amit Deshmukh", img: "/member3.jpg" },
-    { post: "Joint Secretary", name: "Priya Shinde", img: "/member4.jpg" },
-    { post: "Treasurer", name: "Vikas Jadhav", img: "/member5.jpg" },
-    { post: "Technical Head", name: "Kiran Pawar", img: "/member6.jpg" },
-    { post: "Cultural Head", name: "Anjali Patil", img: "/member7.jpg" },
-    { post: "Sports Head", name: "Rohit Mane", img: "/member8.jpg" },
-    { post: "PR Head", name: "Neha Chavan", img: "/member9.jpg" },
+    { post: "President", name: "Vishwadeep Telgote", img: "/member1.jpg" },
+    { post: "Vice President", name: "Darshan Nandurge", img: "/member2.jpg" },
+    { post: "Secretary", name: "Shruti Hore", img: "/member3.jpg" },
+    { post: "Program Director in Finance", name: "Vishwajeet pawar", img: "/member4.jpg" },
+    { post: "Aptitude Developer", name: "Aditya Wadkar", img: "/member5.jpg" },
+    { post: "Club Service Director", name: "Omprasad Tandale", img: "/member6.jpg" },
+    { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: "/member7.jpg" },
+    { post: "Technical Skill Developer ", name: "Dhanashree Mali", img: "/member8.jpg" },
+    { post: "Web Developer ", name: "Nikshay Avinash Balki", img: "/member9.jpg" },
   ];
 
   return (

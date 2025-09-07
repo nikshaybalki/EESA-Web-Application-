@@ -5,19 +5,19 @@ import { FaLightbulb, FaBullseye, FaClipboardList, FaUserTie } from "react-icons
 export default function Page3() {
   const staffAdvisors = [
     {
-      name: "Prof. A. B. Patil",
+      name: "Darshan Nandurge",
       img: "/advisor1.jpg",
       feedback:
         "Guiding students to excel in both technical and managerial skills, inspiring innovation and teamwork.",
     },
     {
-      name: "Dr. S. K. Kulkarni",
+      name: "Vishwadeep Telgote",
       img: "/advisor2.jpg",
       feedback:
         "Encouraging every student to push boundaries and achieve their potential through EESA activities.",
     },
     {
-      name: "Prof. R. J. Deshmukh",
+      name: "Shruti Hore",
       img: "/advisor3.jpg",
       feedback:
         "Providing the right mentorship and direction, ensuring that the club continues its legacy since 1976.",

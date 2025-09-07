@@ -12,23 +12,52 @@ import Page4 from './pages/Page4'
 import ParticlesBackground from './components/ParticlesBackground'
 
 
+// export default function App() {
+//   return (
+//     <div className="relative min-h-screen bg-black text-white">
+//   <ParticlesBackground />   {/* ✅ must be here */}
+//   <Header />
+//   {/* <main className="relative z-10"> */}
+//     <Routes>
+//       <Route path="/" element={<Home />} />
+//       <Route path="/page1" element={<Page1 />} />
+//       <Route path="/page2" element={<Page2 />} />
+//       <Route path="/page3" element={<Page3 />} />
+//       <Route path="/page4" element={<Page4 />} />
+//     </Routes>
+//   </main>
+//   <Footer />
+// </div>
+
+//   )
+// }
+
+
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-black text-white">
-  <ParticlesBackground />   {/* ✅ must be here */}
-  <Header />
-  <main className="relative z-10">
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/page1" element={<Page1 />} />
-      <Route path="/page2" element={<Page2 />} />
-      <Route path="/page3" element={<Page3 />} />
-      <Route path="/page4" element={<Page4 />} />
-    </Routes>
-  </main>
-  <Footer />
-</div>
+    <div className="flex flex-col min-h-screen bg-black text-white">
+      {/* Background */}
+      <div className="absolute inset-0 -z-10">
+        <ParticlesBackground />
+      </div>
 
+      {/* Header */}
+      <Header />
+
+      {/* Main Content */}
+      <main className="flex-grow z-10 relative">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/page1" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+          <Route path="/page3" element={<Page3 />} />
+          <Route path="/page4" element={<Page4 />} />
+        </Routes>
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
   )
 }
 

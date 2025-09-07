@@ -93,10 +93,10 @@ export default function Header() {
             transition={{ duration: 0.35, ease: 'easeOut' }}
             className="md:hidden absolute top-16 left-0 right-0 bg-black/95 border-t border-white/10 px-6 py-6 space-y-4"
           >
-            <NavItem to="/page1" onClick={closeMenu}>&lt;page1&gt;</NavItem>
-            <NavItem to="/page2" onClick={closeMenu}>&lt;page2&gt;</NavItem>
-            <NavItem to="/page3" onClick={closeMenu}>&lt;page3&gt;</NavItem>
-            <NavItem to="/page4" onClick={closeMenu}>&lt;page4&gt;</NavItem>
+            <NavItem to="/page1" onClick={closeMenu}>Our Events</NavItem>
+            <NavItem to="/page2" onClick={closeMenu}>Upcoming Events</NavItem>
+            <NavItem to="/page3" onClick={closeMenu}>About EESA</NavItem>
+            <NavItem to="/page4" onClick={closeMenu}>Chief Board</NavItem>
           </motion.nav>
         )}
       </AnimatePresence>

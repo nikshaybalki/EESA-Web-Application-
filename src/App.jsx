@@ -9,7 +9,7 @@ import Page2 from './pages/Page2'
 import Page3 from './pages/Page3'
 import Page4 from './pages/Page4'
 
-import ParticlesBackground from './components/ParticlesBackground'
+// import ParticlesBackground from './components/ParticlesBackground'   ---->>>>>>>change here
 
 
 // export default function App() {
@@ -36,10 +36,29 @@ import ParticlesBackground from './components/ParticlesBackground'
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen bg-black text-white">
+
+
+
+
+
+
+
+
+
       {/* Background */}
-      <div className="absolute inset-0 -z-10">
-        <ParticlesBackground />
-      </div>
+      {/* <div className="absolute inset-0 -z-10">                   ---->>>>>>>change here
+        <ParticlesBackground />                       ---->>>>>>>change here
+       </div> */}     
+                            {/* ---->>>>>>>change here */}
+
+
+
+
+
+
+
+
+
 
       {/* Header */}
       <Header />

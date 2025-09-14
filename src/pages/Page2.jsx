@@ -2,48 +2,60 @@
 import React, { useState } from "react";
 import EventCard from "../components/EventCard";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
+
 
 const sampleEvents = [
   {
-    title: "MatSpark",
+    title: "Electroverse",
     shortDesc:
       "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "A multidisciplinary event that brings together leaders and students for impactful discussions.",
-    img: "https://picsum.photos/500/300?random=11",
-    posterImg: "https://picsum.photos/800/600?random=12",
-    registerLink: "https://example.com/prudence",
+    img: assets.electroverse,
+    posterImg: assets.poster,
+    registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
   },
   {
-    title: "ElectroQuest",
+    title: "Matspark",
     shortDesc:
       "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "Dedicated to giving back to society through volunteering, awareness campaigns, and meaningful actions.",
-    img: "https://picsum.photos/500/300?random=13",
-    posterImg: "https://picsum.photos/800/600?random=14",
-    registerLink: "https://example.com/csr",
+    img: assets.electroverse,
+    posterImg: assets.poster,
+    registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
   },
   {
-    title: "Circuitxcape",
+    title: "Revelio",
     shortDesc:
       "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "A platform for students to showcase their technical brilliance and compete at the highest level.",
-    img: "https://picsum.photos/500/300?random=15",
-    posterImg: "https://picsum.photos/800/600?random=16",
-    registerLink: "https://example.com/techfest",
+    img: assets.revelio,
+    posterImg: assets.poster,
+    registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
   },
   {
-    title: "SimXplore",
+    title: "Roborace",
+    shortDesc:
+      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+    extraInfo:
+      "The stage comes alive with mesmerizing performances, creativity, and celebration.",
+    img: assets.roborace,
+    posterImg: assets.poster,
+    registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
+  },
+  {
+    title: "Framefest",
     shortDesc:
       "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
     extraInfo:
       "The stage comes alive with mesmerizing performances, creativity, and celebration.",
     img: "https://picsum.photos/500/300?random=17",
-    posterImg: "https://picsum.photos/800/600?random=18",
-    registerLink: "https://example.com/culturalnight",
-  },
+    posterImg: assets.poster,
+    registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
+  }
 ];
 
 export default function Page2() {

@@ -46,7 +46,7 @@ export default function Footer() {
               <FaYoutube />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/wce_eesa?igsh=MW9md3E5ZGF4YXdkMQ=="
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition"

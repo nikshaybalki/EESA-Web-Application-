@@ -10,6 +10,12 @@ import aditya from "./aditya.jpeg";
 import pratiksha from "./pratiksha.jpeg";
 import sakshi from "./sakshi.jpeg"; 
 import samrudhi from "./samrudhi.jpeg"; 
+import aishwarya from "./aishwarya.jpeg";
+import darshan from "./darshan.jpeg";
+import rachana from "./rachana.jpeg";
+import raj from "./raj.jpeg";
+
+
 
 
 
@@ -27,7 +33,10 @@ export const assets = {
     pratiksha,
     sakshi,
     samrudhi,
-    
+    aishwarya,
+    darshan,
+    rachana,
+    raj
 
 
 

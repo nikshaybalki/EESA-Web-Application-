@@ -5,19 +5,18 @@ import { assets } from "../assets/assets";
 export default function Page4() {
   const boardMembers = [
     { post: "President", name: "Vishwadeep Telgote", img: "/member1.jpg" },
-    { post: "Vice President", name: "Darshan Nandurge", img: "/member2.jpg" },
+    { post: "Vice President", name: "Darshan Nandurge", img:assets.darshan },
     { post: "Secretary", name: "Shruti Hore", img: "/member3.jpg" },
-    { post: "program director in event", name: "Akash", img: assets.akash },
+    { post: "program director in event", name: "Akash Andhare", img: assets.akash },
     { post: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
     { post: "Club Service Director", name: "Omprasad Tandale", img: "/member6.jpg" },
     { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
     { post: "Technical Skill Developer ", name: "Dhanashree Mali", img: "/member8.jpg" },
-    { post: "", name: "Pratiksha patil", img: assets.pratiksha },
-    { post: "", name: "Sakshi", img: assets.sakshi },
-    { post: "", name: "", img: assets },
-    { post: "", name: "", img: assets },
-    { post: "", name: "", img: assets },
-
+    { post: "Art Director", name: "Pratiksha patil", img: assets.pratiksha },
+    { post: "Art Director", name: "Sakshi Koli", img: assets.sakshi },
+    { post: "Program Director in publicity", name: "Aishwarya Arve", img: assets.aishwarya },
+    { post: "Program Director In Events", name: "Rachana Mali", img: assets.rachana },
+    { post: "Program Director in publicity", name: "Rajvardhan Kadam", img: assets.raj },
   ];
 
   return (

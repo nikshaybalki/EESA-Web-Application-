@@ -19,6 +19,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 // Event data (replace img paths later with actual images)
 const events = [
@@ -26,19 +27,19 @@ const events = [
     title: "🔧 Technocrat",
     description:
       "Technocrat is a showcase of innovation where participants present their cutting-edge tech solutions and prototypes. It’s the ultimate platform for budding engineers to exhibit creativity, problem-solving, and engineering skills.",
-    img: "https://picsum.photos/800/500?random=1",
+    img: assets.homeEvent1,
   },
   {
     title: "🤖 Robowar",
     description:
       "Gear up for high-voltage robotic battles in the arena! Robowar pits custom-built robots against each other in a test of power, durability, and strategy.",
-    img: "https://picsum.photos/800/500?random=2",
+    img: assets.homeEvent2,
   },
   {
     title: "🏁 Roborace",
     description:
       "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
-    img: "https://picsum.photos/800/50An evening celebrating art, dance, and music — where creativity and performa0?random=3",
+    img: assets.homeEvent3,
   },
   {
     title: "GIM",

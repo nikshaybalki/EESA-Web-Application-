@@ -9,7 +9,7 @@ const sampleEvents = [
   {
     title: "Electroverse",
     shortDesc:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      "It is a technical event aimed at testing participants’ technical knowledge, aptitude, and practical problem-solving skills.",
     extraInfo:
       "A multidisciplinary event that brings together leaders and students for impactful discussions.",
     img: assets.electroverse,

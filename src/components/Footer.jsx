@@ -38,7 +38,7 @@ export default function Footer() {
           <h2 className="text-xl font-semibold text-blue-400">Follow Us</h2>
           <div className="flex gap-6 mt-4 text-2xl">
             <a
-              href="https://youtube.com"
+              href="https://youtube.com/@wceeesa7666?si=1JO5f3kesdY2kwMQ"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 transition"
@@ -54,7 +54,7 @@ export default function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/wce-eesa/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition"
@@ -62,7 +62,7 @@ export default function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://wa.me/1234567890"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition"

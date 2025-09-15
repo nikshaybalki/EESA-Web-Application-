@@ -1,17 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { assets } from "../assets/assets";
 
 export default function Page4() {
   const boardMembers = [
     { post: "President", name: "Vishwadeep Telgote", img: "/member1.jpg" },
     { post: "Vice President", name: "Darshan Nandurge", img: "/member2.jpg" },
     { post: "Secretary", name: "Shruti Hore", img: "/member3.jpg" },
-    { post: "Program Director in Finance", name: "Vishwajeet pawar", img: "/member4.jpg" },
-    { post: "Aptitude Developer", name: "Aditya Wadkar", img: "/member5.jpg" },
+    { post: "program director in event", name: "Akash", img: assets.akash },
+    { post: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
     { post: "Club Service Director", name: "Omprasad Tandale", img: "/member6.jpg" },
-    { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: "/member7.jpg" },
+    { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
     { post: "Technical Skill Developer ", name: "Dhanashree Mali", img: "/member8.jpg" },
-    { post: "Web Developer ", name: "Nikshay Avinash Balki", img: "/member9.jpg" },
+    { post: "", name: "Pratiksha patil", img: assets.pratiksha },
+    { post: "", name: "Sakshi", img: assets.sakshi },
+    { post: "", name: "", img: assets },
+    { post: "", name: "", img: assets },
+    { post: "", name: "", img: assets },
+
   ];
 
   return (

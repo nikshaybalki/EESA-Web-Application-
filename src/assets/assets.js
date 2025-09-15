@@ -5,6 +5,13 @@ import electroverse from "./electroverse.jpeg";
 import revelio from "./revelio.jpeg";
 import roborace from "./roborace.jpeg";
 import poster from "./poster.jpeg";
+import akash from "./akash.jpeg";
+import aditya from "./aditya.jpeg"; 
+import pratiksha from "./pratiksha.jpeg";
+import sakshi from "./sakshi.jpeg"; 
+import samrudhi from "./samrudhi.jpeg"; 
+
+
 
 
 export const assets = {
@@ -14,5 +21,14 @@ export const assets = {
     electroverse,
     revelio,
     roborace,
-    poster
+    poster,
+    akash,
+    aditya,
+    pratiksha,
+    sakshi,
+    samrudhi,
+    
+
+
+
 }

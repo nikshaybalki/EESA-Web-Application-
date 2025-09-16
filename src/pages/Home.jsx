@@ -67,7 +67,7 @@ export default function Home() {
   {[
     {
       name: "🔧 Technocrat",
-      description: "Technocrat is a showcase of innovation where participants present their cutting-edge tech solutions and prototypes. It’s the ultimate platform for budding engineers to exhibit creativity, problem-solving, and engineering skills.",
+      description: "TECHNOCRAT is a state-level technical symposium arranged by Electrical Engineering Students Association (EESA). This event is organized each year with the focus to give students irrespective of their departments and colleges a biased platform to showcase their skill and a chance to share their technical knowledge will be helpful to apply this knowledge in practical life. ",
       img: assets.homeEvent1
     },
     {

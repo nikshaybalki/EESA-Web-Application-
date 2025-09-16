@@ -1,6 +1,7 @@
 // src/components/ChiefBoard.jsx
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { assets } from "../assets/assets";
 
 /**
  * ChiefBoard - smooth circular auto-scroller (RAF-based)
@@ -12,10 +13,10 @@ import { Link } from "react-router-dom";
 
 const PEOPLE = [
   { name: "Vishwadeep Telgote", role: "President", img: "https://picsum.photos/320/320?1" },
-  { name: "Darshan Nandurge", role: "Vice President", img: "https://picsum.photos/320/320?2" },
+  { name: "Darshan Nandurge", role: "Vice President",  img: assets.darshan },
   { name: "Shruti Hore", role: "Secretary", img: "https://picsum.photos/320/320?3" },
-  { name: "Vishwajeet pawar", role: "Program Director in Finance", img: "https://picsum.photos/320/320?4" },
-  { name: "Aditya Wadkar", role: "Aptitude Developer", img: "https://picsum.photos/320/320?5" },
+  { name: "Akash Andhare", role: "Program Director in Event",img: assets.akash },
+  { name: "Omprasad Tandale", role: "Club Service Director", img: assets.omprasad},
 ];
 
 export default function ChiefBoard() {

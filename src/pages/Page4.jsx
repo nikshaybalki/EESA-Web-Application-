@@ -19,7 +19,7 @@ export default function Page4() {
 
     { post: "Program Director in Finance", name: "Vishwajeet Pawar", img: assets },
 
-    { post: "Club Service Director", name: "Omprasad Tandale",img: assets },
+    { post: "Club Service Director", name: "Omprasad Tandale",img: assets.omprasad },
     { post: "Club Service Director", name: "Nandini Chavande",img: assets },
 
     { post: "Art Director", name: "Sanika Banne", img: assets},

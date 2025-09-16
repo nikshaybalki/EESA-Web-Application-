@@ -13,8 +13,10 @@ import samrudhi from "./samrudhi.jpeg";
 import aishwarya from "./aishwarya.jpeg";
 import darshan from "./darshan.jpeg";
 import raj from "./raj.jpeg";
-
-
+import matspark from "./matspark.png";
+import omprasad from "./omprasad.jpeg";
+import gim from "./gim.png";
+import alumni from "./alumni.png";
 
 
 
@@ -34,7 +36,11 @@ export const assets = {
     samrudhi,
     aishwarya,
     darshan,
-    raj
+    raj,
+    matspark,
+    omprasad,
+    gim,
+    alumni
 
 
 

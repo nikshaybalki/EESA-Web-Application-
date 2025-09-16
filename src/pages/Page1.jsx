@@ -26,7 +26,7 @@ const events = [
   {
     title: "🔧 Technocrat",
     description:
-      "Technocrat is a showcase of innovation where participants present their cutting-edge tech solutions and prototypes. It’s the ultimate platform for budding engineers to exhibit creativity, problem-solving, and engineering skills.",
+      "TECHNOCRAT is a state-level technical symposium arranged by Electrical Engineering Students Association (EESA). This event is organized each year with the focus to give students irrespective of their departments and colleges a biased platform to showcase their skill and a chance to share their technical knowledge will be helpful to apply this knowledge in practical life.",
     img: assets.homeEvent1,
   },
   {
@@ -44,14 +44,14 @@ const events = [
   {
     title: "GIM",
     description:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
-    img: "https://picsum.photos/800/500?random=4",
+      "General interest meet is an orientation meeting organized for the newly admitted First Year students. We introduce the students with the department and its various staff members, with a departmental tour, followed by a fun session where the first years get to know about EESA through various activities organized for them. ",
+    img: assets.gim,
   },
   {
     title: "Alumani Meet",
     description:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
-    img: "https://picsum.photos/800/500?random=5",
+      "Alumni Meet is a gathering of an institution’s former students, and it is a venue where the institution can be proud of its successful alumni. During their gathering, the alumni community shares their experiences in the outside world that they encountered after leaving, Admission Management, the institution. The Alumni Meet is a unique opportunity for both the academy and its alumni.",
+    img: assets.alumni,
   },
 ];
 

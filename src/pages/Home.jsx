@@ -71,7 +71,7 @@ export default function Home() {
       img: assets.homeEvent1
     },
     {
-      name: "🤖 Robowar",
+      name: "🤖 Robowar ",
       description: "Gear up for high-voltage robotic battles in the arena! Robowar pits custom-built robots against each other in a test of power, durability, and strategy.",
       img: assets.homeEvent2
     },

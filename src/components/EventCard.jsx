@@ -145,17 +145,17 @@
 
 // src/components/EventCard.jsx
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 /**
- * EventCard
+ * EventCard (Modified)
  * Props:
  *  - title, shortDesc, extraInfo, img, posterImg, registerLink
- *  - showDetails (bool), onToggleDetails(), onOpenPoster(posterUrl)
+ *  - onOpenPoster(posterUrl)
  *
  * Behavior:
- *  - compact card (md height ~300px), expand shows long text + 2 sub-cards
- *  - themed to blue/purple neon look
+ *  - Compact card (md height ~300px), no expandable section
+ *  - Themed to blue/purple neon look
  */
 
 export default function EventCard({
@@ -165,8 +165,6 @@ export default function EventCard({
   img = "https://picsum.photos/800/600?random=1",
   posterImg = null,
   registerLink = "#",
-  showDetails = false,
-  onToggleDetails = () => {},
   onOpenPoster = () => {},
 }) {
   return (
@@ -231,105 +229,9 @@ export default function EventCard({
               >
                 Poster
               </button>
-
-              <button
-                type="button"
-                onClick={onToggleDetails}
-                className="ml-auto md:ml-0 px-4 py-2 rounded-lg text-sm font-semibold border border-blue-500 text-blue-300 hover:bg-blue-500/10 hover:text-white transition"
-                aria-expanded={showDetails}
-                aria-controls={`details-${title.replace(/\s+/g, "-").toLowerCase()}`}
-              >
-                {showDetails ? "Hide Details" : "View More Detail"}
-              </button>
             </div>
           </div>
         </div>
-
-        {/* Expandable details block */}
-        <AnimatePresence initial={false}>
-          {showDetails && (
-            <motion.div
-              id={`details-${title.replace(/\s+/g, "-").toLowerCase()}`}
-              layout
-              initial={{ opacity: 0, y: -8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -8 }}
-              transition={{ duration: 0.35 }}
-              className="p-6 border-t border-blue-500/20 bg-[#050508]"
-            >
-              {/* Long description (8-10 lines) */}
-              <div className="max-w-4xl mx-auto text-justify text-white/80 leading-relaxed space-y-4">
-                <p className="text-base md:text-lg">
-                  {extraInfo ? (
-                    extraInfo
-                  ) : (
-                    <>
-                      <span className="text-blue-300 font-semibold">Overview: </span>
-                      This event provides students a platform to present their technical ideas
-                      and soft skills through a sequence of challenges and interactive
-                      sessions. Participants gain hands-on experience in designing,
-                      prototyping, and presenting solutions relevant to current industry
-                      trends. Collaboration with mentors and industry professionals ensures
-                      meaningful feedback and real-world direction.
-                    </>
-                  )}
-                </p>
-
-                <p className="text-sm text-white/70">
-                  The format includes multiple rounds — idea submission, prototype demo,
-                  technical interviews, and final presentations. Teams are judged on
-                  innovation, feasibility, technical depth, and presentation quality. The
-                  event also hosts workshops and panel discussions for wider learning.
-                </p>
-
-                <p className="text-sm text-white/70">
-                  Winners receive certificates, mentorship opportunities, and prizes to
-                  further their projects. All attendees are encouraged to network, learn,
-                  and collaborate to build impactful solutions.
-                </p>
-              </div>
-
-              {/* Two sub-cards row */}
-              <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                {/* sub-card 1 */}
-                <motion.div
-                  whileHover={{ scale: 1.03 }}
-                  className="bg-black border border-blue-500/25 rounded-lg overflow-hidden shadow-sm hover:shadow-[0_8px_30px_rgba(30,144,255,0.08)]"
-                >
-                  <img
-                    src="https://picsum.photos/600/360?random=51"
-                    alt="sub-1"
-                    className="w-full h-36 object-cover"
-                  />
-                  <div className="p-4">
-                    <h4 className="text-lg font-semibold text-blue-300">Technocrat</h4>
-                    <p className="text-white/70 text-sm mt-1">
-                      Mock placement drive simulating real campus interviews with expert panels.
-                    </p>
-                  </div>
-                </motion.div>
-
-                {/* sub-card 2 */}
-                <motion.div
-                  whileHover={{ scale: 1.03 }}
-                  className="bg-black border border-purple-500/20 rounded-lg overflow-hidden shadow-sm hover:shadow-[0_8px_30px_rgba(138,43,226,0.08)]"
-                >
-                  <img
-                    src="https://picsum.photos/600/360?random=52"
-                    alt="sub-2"
-                    className="w-full h-36 object-cover"
-                  />
-                  <div className="p-4">
-                    <h4 className="text-lg font-semibold text-purple-300">Vision</h4>
-                    <p className="text-white/70 text-sm mt-1">
-                      High-stakes geopolitical & strategy challenge with debate-style rounds.
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </motion.div>
     </motion.article>
   );

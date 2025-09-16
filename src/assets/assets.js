@@ -17,7 +17,8 @@ import matspark from "./matspark.png";
 import omprasad from "./omprasad.jpeg";
 import gim from "./gim.png";
 import alumni from "./alumni.png";
-
+import framefest from "./framefest.jpeg";
+import { fr } from "date-fns/locale";
 
 
 
@@ -40,7 +41,8 @@ export const assets = {
     matspark,
     omprasad,
     gim,
-    alumni
+    alumni,
+    framefest
 
 
 

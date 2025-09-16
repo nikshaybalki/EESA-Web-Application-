@@ -8,8 +8,7 @@ import { assets } from "../assets/assets";
 const sampleEvents = [
   {
     title: "Electroverse",
-    shortDesc:
-      "It is a technical event aimed at testing participants’ technical knowledge, aptitude, and practical problem-solving skills.",
+    shortDesc:"⚡ ElectroverseTest your knowledge and skills in this electrifying challenge.✨ Only the sharpest sparks will shine!",
     // extraInfo:
     //   "A multidisciplinary event that brings together leaders and students for impactful discussions.",
     img: assets.electroverse,
@@ -19,7 +18,7 @@ const sampleEvents = [
   {
     title: "Matspark",
     shortDesc:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      "💡 MatSpark This year featuring a hands-on MATLAB Workshop.✨ Spark your skills and shape the future with the power of software!🚀",
     // extraInfo:
     //   "Dedicated to giving back to society through volunteering, awareness campaigns, and meaningful actions.",
     img: assets.matspark,
@@ -29,7 +28,7 @@ const sampleEvents = [
   {
     title: "Revelio",
     shortDesc:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      "👻 Revelio 🎭 Step into a thrilling mystery event full of suspense, puzzles, and excitement! 🕵️‍♂️ ✨ Dare to uncover the unknown!",
     // extraInfo:
     //   "A platform for students to showcase their technical brilliance and compete at the highest level.",
     img: assets.revelio,
@@ -39,7 +38,7 @@ const sampleEvents = [
   {
     title: "Roborace",
     shortDesc:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      "🤖 Robo Race🏎✨ Team up, build your bots, and feel the adrenaline rush on the racing track! 🚀",
     // extraInfo:
     //   "The stage comes alive with mesmerizing performances, creativity, and celebration.",
     img: assets.roborace,
@@ -49,10 +48,10 @@ const sampleEvents = [
   {
     title: "Framefest",
     shortDesc:
-      "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
+      "📸 FrameFest 🎥 Show your talent through Photography & Reels. 🌟 ✨ Every click and reel tells a story!",
     // extraInfo:
     //   "The stage comes alive with mesmerizing performances, creativity, and celebration.",
-    img: "https://picsum.photos/500/300?random=17",
+    img:assets.framefest,
     posterImg: assets.poster,
     registerLink: "https://forms.gle/ufTPv7KYqRqf9Vmy6",
   }

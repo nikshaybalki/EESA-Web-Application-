@@ -4,19 +4,42 @@ import { assets } from "../assets/assets";
 
 export default function Page4() {
   const boardMembers = [
-    { post: "President", name: "Vishwadeep Telgote", img: "/member1.jpg" },
-    { post: "Vice President", name: "Darshan Nandurge", img:assets.darshan },
-    { post: "Secretary", name: "Shruti Hore", img: "/member3.jpg" },
+    { post: "President", name: "Vishwadeep Telgote", img: assets },
+
+    { post: "Vice President", name: "Darshan Nandurge", img: assets.darshan },
+
+    { post: "Secretary", name: "Shruti Hore",img: assets },
+
     { post: "program director in event", name: "Akash Andhare", img: assets.akash },
-    { post: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
-    { post: "Club Service Director", name: "Omprasad Tandale", img: "/member6.jpg" },
-    { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
-    { post: "Technical Skill Developer ", name: "Dhanashree Mali", img: "/member8.jpg" },
-    { post: "Art Director", name: "Pratiksha patil", img: assets.pratiksha },
-    { post: "Art Director", name: "Sakshi Koli", img: assets.sakshi },
+    { post: "program director in event", name: "Yash Kothale", img: assets },
+    { post: "program director in event", name: "Omkar Aher", img: assets },
+
+
     { post: "Program Director in publicity", name: "Aishwarya Arve", img: assets.aishwarya },
-    { post: "Program Director In Events", name: "Rachana Mali", img: assets.rachana },
-    { post: "Program Director in publicity", name: "Rajvardhan Kadam", img: assets.raj },
+
+    { post: "Program Director in Finance", name: "Vishwajeet Pawar", img: assets },
+
+    { post: "Club Service Director", name: "Omprasad Tandale",img: assets },
+    { post: "Club Service Director", name: "Nandini Chavande",img: assets },
+
+    { post: "Art Director", name: "Sanika Banne", img: assets},
+    { post: "Art Director", name: "Sakshi Koli", img: assets.sakshi },
+    { post: "Art Director", name: "Prathamesh Wanare", img: assets },
+    { post: "Art Director", name: "Pratiksha Patil",  img: assets.pratiksha  },
+
+    { post: "Technical Skill Developer ", name: "Dhanashree Mali",img: assets},
+
+    { post: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
+
+    { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
+
+    { post: "Members", name: "Tejashree Sutar", img: assets },
+    { post: "Members", name: "Samruddhi Ghadge",img: assets },
+
+
+
+
+
   ];
 
   return (

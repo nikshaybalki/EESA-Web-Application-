@@ -192,6 +192,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaLightbulb, FaBullseye, FaUserTie } from "react-icons/fa";
+import { assets } from "../assets/assets";
 
 export default function Page3() {
   const staffAdvisors = [
@@ -212,7 +213,7 @@ export default function Page3() {
     {
       role: "President",
       name: "Vishwadeep Telgote",
-      img: "/advisor3.jpg",
+      img: assets.vishwadeep,
       feedback:
         "Providing the right mentorship and direction, ensuring that the club continues its legacy since 1976.",
     },

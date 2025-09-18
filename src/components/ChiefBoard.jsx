@@ -12,11 +12,12 @@ import { assets } from "../assets/assets";
  */
 
 const PEOPLE = [
-  { name: "Vishwadeep Telgote", role: "President", img: "https://picsum.photos/320/320?1" },
+  { name: "Vishwadeep Telgote", role: "President", img: assets.vishwadeep },
   { name: "Darshan Nandurge", role: "Vice President",  img: assets.darshan },
   { name: "Shruti Hore", role: "Secretary", img: "https://picsum.photos/320/320?3" },
   { name: "Akash Andhare", role: "Program Director in Event",img: assets.akash },
   { name: "Omprasad Tandale", role: "Club Service Director", img: assets.omprasad},
+  
 ];
 
 export default function ChiefBoard() {

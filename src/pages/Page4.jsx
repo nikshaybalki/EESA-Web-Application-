@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 export default function Page4() {
   const boardMembers = [
-    { post: "President", name: "Vishwadeep Telgote", img: assets },
+    { post: "President", name: "Vishwadeep Telgote", img: assets.vishwadeep },
 
     { post: "Vice President", name: "Darshan Nandurge", img: assets.darshan },
 

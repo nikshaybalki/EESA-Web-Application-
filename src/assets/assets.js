@@ -18,7 +18,7 @@ import omprasad from "./omprasad.jpeg";
 import gim from "./gim.png";
 import alumni from "./alumni.png";
 import framefest from "./framefest.jpeg";
-
+import vishwadeep from "./vishwadeep.jpeg";
 
 
 
@@ -42,7 +42,8 @@ export const assets = {
     omprasad,
     gim,
     alumni,
-    framefest
+    framefest,
+    vishwadeep
 
 
 

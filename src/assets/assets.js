@@ -19,6 +19,8 @@ import gim from "./gim.png";
 import alumni from "./alumni.png";
 import framefest from "./framefest.jpeg";
 import vishwadeep from "./vishwadeep.jpeg";
+import hod from "./hod.jpeg"; 
+import staff from "./staff.jpeg";   
 
 
 
@@ -43,7 +45,9 @@ export const assets = {
     gim,
     alumni,
     framefest,
-    vishwadeep
+    vishwadeep,
+    hod,
+    staff
 
 
 

@@ -198,15 +198,15 @@ export default function Page3() {
   const staffAdvisors = [
     {
       role: "HOD",
-      name: "Mohale sir ",
-      img: "/advisor1.jpg",
+      name: " V.P Mohale sir ",
+      img:assets.hod,
       feedback:
         "Guiding students to excel in both technical and managerial skills, inspiring innovation and teamwork.",
     },
     {
       role: "Staff Advisor",
       name: "R P Hasbe sir ",
-      img: "/advisor2.jpg",
+      img: assets.staff,
       feedback:
         "Encouraging every student to push boundaries and achieve their potential through EESA activities.",
     },

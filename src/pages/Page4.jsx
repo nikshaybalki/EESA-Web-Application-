@@ -13,6 +13,7 @@ export default function Page4() {
     { post: "program director in event", name: "Akash Andhare", img: assets.akash },
     { post: "program director in event", name: "Yash Kothale", img: assets },
     { post: "program director in event", name: "Omkar Aher", img: assets },
+    { post: "program director in event", name: "Rajwardhan Kadam", img: assets },
 
 
     { post: "Program Director in publicity", name: "Aishwarya Arve", img: assets.aishwarya },
@@ -34,8 +35,8 @@ export default function Page4() {
     { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
 
     { post: "Members", name: "Tejashree Sutar", img: assets },
-    { post: "Members", name: "Samruddhi Ghadge",img: assets },
-
+    { post: "Members", name: "Meghana Ghadge",img: assets },
+{ post: "Members", name: "Jivika Bodhee",img: assets },
 
 
 

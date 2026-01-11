@@ -27,8 +27,8 @@ export default function Footer() {
           </p>
           <p className="mt-2 text-blue-300 hover:text-blue-400 transition">
             Email:{" "}
-            <a href="mailto:eesa@walchandsangli.ac.in">
-              eesa@walchandsangli.ac.in
+            <a href="mailto:info.wceeesa@gmail.com">
+              info.eesa@walchandsangli.ac.in
             </a>
           </p>
         </div>

@@ -53,11 +53,11 @@ export default function Recruitment() {
         <div className="relative z-10">
           <h2 className="text-4xl font-bold mb-6 text-white">Ready to take the lead?</h2>
           <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto">
-            Applications are currently open for all First Year and Second Year students. 
+            Applications are currently open for all First Year and Direct Second Year students. 
             Click the button below to fill out the recruitment form.
           </p>
           <a
-            href="https://forms.gle/your-google-form-link" // Replace with actual form link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdUi9ClD27YdkJthl0echXKJqrpm48CV58w3T2HORMxDUy-7Q/viewform?usp=dialog" // Replace with actual form link
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-4 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold text-xl hover:shadow-[0_0_30px_rgba(30,144,255,0.6)] transition-all hover:scale-105"

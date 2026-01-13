@@ -17,6 +17,36 @@ const PEOPLE = [
   { name: "Shruti Hore", role: "Secretary", img: assets.shruti },
   { name: "Akash Andhare", role: "Program Director in Event",img: assets.akash },
   { name: "Omprasad Tandale", role: "Club Service Director", img: assets.omprasad},
+
+
+
+  { role: "program director in event", name: "Yash Kothale", img: assets.yash },
+    { role: "program director in event", name: "Omkar Aher", img: assets },
+    { role: "program director in event", name: "Rajwardhan Kadam", img: assets.rajvardhan },
+
+
+    { role: "Program Director in publicity", name: "Aishwarya Arve", img: assets.aishwarya },
+
+    { role: "Program Director in Finance", name: "Vishwajeet Pawar", img: assets.vishwajeet },
+
+    { role: "Club Service Director", name: "Nandini Chavande",img: assets },
+
+    { role: "Art Director", name: "Sanika Banne", img: assets},
+    { role: "Art Director", name: "Sakshi Koli", img: assets.sakshi },
+    { role: "Art Director", name: "Prathamesh Wanare", img: assets },
+    { role: "Art Director", name: "Pratiksha Patil",  img: assets.pratiksha  },
+
+    { role: "Technical Skill Developer ", name: "Dhanashree Mali",img: assets.dhanashree},
+
+    { role: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
+
+    { role: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
+
+    { role: "Members", name: "Tejashree Sutar", img: assets.tejshree },
+    { role: "Members", name: "Meghana Ghadge",img: assets },
+{ role: "Members", name: "Jivika Bodhee",img: assets.jivika },
+
+
   
 ];
 

@@ -49,6 +49,7 @@ export default function Header() {
           <NavItem to="/page2">Technocrat'2k25</NavItem>
           <NavItem to="/page3">About EESA</NavItem>
           <NavItem to="/page4">Chief Board</NavItem>
+          <NavItem to="/recruitment">Recruitment</NavItem> 
         </nav>
 
         {/* Mobile Hamburger */}
@@ -97,6 +98,7 @@ export default function Header() {
             <NavItem to="/page2" onClick={closeMenu}>Technocrat'2k25</NavItem>
             <NavItem to="/page3" onClick={closeMenu}>About EESA</NavItem>
             <NavItem to="/page4" onClick={closeMenu}>Chief Board</NavItem>
+            <NavItem to="/recruitment" onClick={closeMenu}>Recruitment</NavItem> // New Link
           </motion.nav>
         )}
       </AnimatePresence>

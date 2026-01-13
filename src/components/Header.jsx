@@ -98,7 +98,7 @@ export default function Header() {
             <NavItem to="/page2" onClick={closeMenu}>Technocrat'2k25</NavItem>
             <NavItem to="/page3" onClick={closeMenu}>About EESA</NavItem>
             <NavItem to="/page4" onClick={closeMenu}>Chief Board</NavItem>
-            <NavItem to="/recruitment" onClick={closeMenu}>Recruitment</NavItem>
+            <NavItem to="/recruitment" onClick={closeMenu}>Recruitment</NavItem> 
           </motion.nav>
         )}
       </AnimatePresence>

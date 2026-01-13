@@ -8,17 +8,17 @@ export default function Page4() {
 
     { post: "Vice President", name: "Darshan Nandurge", img: assets.darshan },
 
-    { post: "Secretary", name: "Shruti Hore",img: assets },
+    { post: "Secretary", name: "Shruti Hore",img: assets.shruti },
 
     { post: "program director in event", name: "Akash Andhare", img: assets.akash },
-    { post: "program director in event", name: "Yash Kothale", img: assets },
+    { post: "program director in event", name: "Yash Kothale", img: assets.yash },
     { post: "program director in event", name: "Omkar Aher", img: assets },
-    { post: "program director in event", name: "Rajwardhan Kadam", img: assets },
+    { post: "program director in event", name: "Rajwardhan Kadam", img: assets.rajvardhan },
 
 
     { post: "Program Director in publicity", name: "Aishwarya Arve", img: assets.aishwarya },
 
-    { post: "Program Director in Finance", name: "Vishwajeet Pawar", img: assets },
+    { post: "Program Director in Finance", name: "Vishwajeet Pawar", img: assets.vishwajeet },
 
     { post: "Club Service Director", name: "Omprasad Tandale",img: assets.omprasad },
     { post: "Club Service Director", name: "Nandini Chavande",img: assets },
@@ -28,15 +28,15 @@ export default function Page4() {
     { post: "Art Director", name: "Prathamesh Wanare", img: assets },
     { post: "Art Director", name: "Pratiksha Patil",  img: assets.pratiksha  },
 
-    { post: "Technical Skill Developer ", name: "Dhanashree Mali",img: assets},
+    { post: "Technical Skill Developer ", name: "Dhanashree Mali",img: assets.dhanashree},
 
     { post: "Aptitude Developer", name: "Aditya Wadkar", img: assets.aditya },
 
     { post: "Alumani Relation Officer ", name: "Samruddhi Shinde", img: assets.samrudhi },
 
-    { post: "Members", name: "Tejashree Sutar", img: assets },
+    { post: "Members", name: "Tejashree Sutar", img: assets.tejshree },
     { post: "Members", name: "Meghana Ghadge",img: assets },
-{ post: "Members", name: "Jivika Bodhee",img: assets },
+{ post: "Members", name: "Jivika Bodhee",img: assets.jivika },
 
 
 

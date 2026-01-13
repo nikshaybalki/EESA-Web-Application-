@@ -5,6 +5,7 @@ import ChiefBoard from "../components/ChiefBoard"
 import { assets } from "../assets/assets"
 
 
+
 export default function Home() {
   return (
     <div>
@@ -70,16 +71,20 @@ export default function Home() {
       description: "TECHNOCRAT is a state-level technical symposium arranged by Electrical Engineering Students Association (EESA). This event is organized each year with the focus to give students irrespective of their departments and colleges a biased platform to showcase their skill and a chance to share their technical knowledge will be helpful to apply this knowledge in practical life. ",
       img: assets.homeEvent1
     },
-    {
-      name: "🤖 Robowar ",
-      description: "Gear up for high-voltage robotic battles in the arena! Robowar pits custom-built robots against each other in a test of power, durability, and strategy.",
-      img: assets.homeEvent2
-    },
-    {
-      name: "🏁 Roborace",
-      description: "In Roborace, speed meets engineering brilliance. Participants compete with self-designed robots on challenging tracks, navigating twists and turns to claim victory.",
-      img: assets.homeEvent3
-    }
+     {
+    name: "GIM",
+    description:
+      "General interest meet is an orientation meeting organized for the newly admitted First Year students. We introduce the students with the department and its various staff members, with a departmental tour, followed by a fun session where the first years get to know about EESA through various activities organized for them. ",
+    img: assets.gim,
+  },
+   {
+    name: "Alumani Meet",
+    description:
+      "Alumni Meet is a gathering of an institution’s former students, and it is a venue where the institution can be proud of its successful alumni. During their gathering, the alumni community shares their experiences in the outside world that they encountered after leaving, Admission Management, the institution. The Alumni Meet is a unique opportunity for both the academy and its alumni.",
+    img: assets.alumni,
+  },
+
+
   ].map((event, i) => (
     <div key={i} className="group card w-full h-96">
       <div className="card-inner w-full h-full">

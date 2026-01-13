@@ -73,12 +73,47 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* Copyright
       <div className="border-t border-white/10 py-4 text-center text-sm text-white/60">
         © {new Date().getFullYear()}{" "}
         <span className="font-semibold text-blue-400">WCE - EESA (Web D - Nikshay.A.Balki)</span>. All
         rights reserved.
+      </div> */}
+
+
+
+
+
+
+{/* Copyright & Developer Credit */}
+      <div className="border-t border-white/10 py-6 text-center text-sm text-white/60">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-2">
+          <span>© {new Date().getFullYear()} All rights reserved.</span>
+          
+          <div className="flex items-center gap-2">
+            <span className="hidden md:inline text-white/30">|</span>
+            <a 
+              href="https://nikshayportfolio.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-400 hover:text-blue-300 transition-all duration-300 hover:underline decoration-blue-400/30 underline-offset-4"
+            >
+              WCE - EESA (Web D - Nikshay.A.Balki)
+            </a>
+            
+            <a 
+              href="https://www.linkedin.com/in/nikshay-balki-7b2909321/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-[#0077b5] transition-all duration-300 transform hover:scale-125 text-lg"
+              title="Contact Developer on LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+        </div>
       </div>
+
     </footer>
   );
 }

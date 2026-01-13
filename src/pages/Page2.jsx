@@ -71,7 +71,7 @@ export default function Page2() {
         className="text-4xl md:text-5xl font-extrabold text-center mb-12"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-          UPCOMING EVENTS
+         Technocrat'2k25
         </span>
       </motion.h1>
 

@@ -46,7 +46,7 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-4">
           <NavItem to="/page1">Our Events</NavItem>
-          <NavItem to="/page2">Upcoming Events</NavItem>
+          <NavItem to="/page2">Technocrat'2k25</NavItem>
           <NavItem to="/page3">About EESA</NavItem>
           <NavItem to="/page4">Chief Board</NavItem>
         </nav>
@@ -94,7 +94,7 @@ export default function Header() {
             className="md:hidden absolute top-16 left-0 right-0 bg-black/95 border-t border-white/10 px-6 py-6 space-y-4"
           >
             <NavItem to="/page1" onClick={closeMenu}>Our Events</NavItem>
-            <NavItem to="/page2" onClick={closeMenu}>Upcoming Events</NavItem>
+            <NavItem to="/page2" onClick={closeMenu}>Technocrat'2k25</NavItem>
             <NavItem to="/page3" onClick={closeMenu}>About EESA</NavItem>
             <NavItem to="/page4" onClick={closeMenu}>Chief Board</NavItem>
           </motion.nav>
